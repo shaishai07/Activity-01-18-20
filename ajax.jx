@@ -1,0 +1,11 @@
+$(document).ready(function() {
+ $("#btn-table").click(function(){
+  $("#container").load("Table.html")
+  });
+ });
+
+ $(document).ready(function() {
+  $("#btn-dialog").click(function(){
+  $("#container").load("Dialog.html")
+  });
+ });
