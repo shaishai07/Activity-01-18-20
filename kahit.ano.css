@@ -1,0 +1,37 @@
+.SHAI{
+    border: 5px solid purple;
+    height: 100px;
+    width: 150px;
+}
+#container{
+    border: 5px solid yellow;
+    height: 500px;
+    width: 750px;
+    position: absolute;
+    left: 400px;
+    top: 75px;
+}
+#btn-table{
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+#btn-dialog{
+    position: absolute;
+    left: 100px;
+    top: 400px;
+}
+#btn-table:before{
+    content: "Fill Table"
+}
+#btn-table:active{
+    background-color: yellow;
+    font-size: 30px;
+}
+#btn-dialog:before{
+    content: "Fill Dialog"
+}
+#btn-dialog:active{
+    background-color: yellow;
+    font-size: 30px;
+}
